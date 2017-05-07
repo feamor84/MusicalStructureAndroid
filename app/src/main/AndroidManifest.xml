@@ -16,6 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".PlayActivity"
+            android:label="@string/activity_play"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".RandomActivity"
+            android:label="@string/activity_random"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".PlaylistActivity"
+            android:label="@string/activity_playlist"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".SettingsActivity"
+            android:label="@string/activity_settings"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

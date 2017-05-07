@@ -1,32 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="pl.bartekpawlowski.musicalstructure.MainActivity">
+    tools:context="pl.bartekpawlowski.musicalstructure.MainActivity"
+    style="@style/MainLayout">
 
-    <View
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+    <LinearLayout
+    style="@style/Row">
 
-    </View>
+        <RelativeLayout
+            android:id="@+id/playButton"
+            style="@style/RowElement">
 
-    <View
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/play"
+                style="@style/RowElementIcon"
+                android:src="@drawable/ic_play_arrow_black_48dp" />
 
-    </View>
+            <TextView
+                style="@style/RowElementText"
+                android:layout_below="@id/play"
+                android:text="play" />
+        </RelativeLayout>
 
-    <View
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/randomButton"
+            style="@style/RowElement">
 
-    </View>
+            <ImageView
+                android:id="@+id/random"
+                style="@style/RowElementIcon"
+                android:src="@drawable/ic_shuffle_black_48dp" />
 
-    <View
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+            <TextView
+                style="@style/RowElementText"
+                android:layout_below="@id/random"
+                android:text="random" />
+        </RelativeLayout>
 
-    </View>
+    </LinearLayout>
 
-</RelativeLayout>
+    <LinearLayout
+        style="@style/Row">
+
+        <RelativeLayout
+            android:id="@+id/playlistButton"
+            style="@style/RowElement">
+
+            <ImageView
+                android:id="@+id/playlist"
+                style="@style/RowElementIcon"
+                android:src="@drawable/ic_view_list_black_48dp" />
+
+            <TextView
+                style="@style/RowElementText"
+                android:layout_below="@id/playlist"
+                android:text="playlist" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/settingsButton"
+            style="@style/RowElement">
+
+            <ImageView
+                android:id="@+id/settings"
+                style="@style/RowElementIcon"
+                android:src="@drawable/ic_settings_black_48dp" />
+
+            <TextView
+                style="@style/RowElementText"
+                android:layout_below="@id/settings"
+                android:text="settings" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

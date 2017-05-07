@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Musical Structure</string>
+    <string name="activity_play">Play</string>
+    <string name="activity_random">Random song</string>
+    <string name="activity_playlist">Playlist</string>
+    <string name="activity_settings">Settings</string>
 </resources>
