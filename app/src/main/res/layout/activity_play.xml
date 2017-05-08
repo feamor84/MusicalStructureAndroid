@@ -4,4 +4,7 @@
     style="@style/ChildLayout"
     tools:context="pl.bartekpawlowski.musicalstructure.PlayActivity">
 
+    <TextView
+        style="@style/ChildLayoutTextElement"
+        android:text="@string/activity_play_desc" />
 </RelativeLayout>

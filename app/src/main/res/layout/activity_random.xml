@@ -4,4 +4,8 @@
     style="@style/ChildLayout"
     tools:context="pl.bartekpawlowski.musicalstructure.RandomActivity">
 
+    <TextView
+        style="@style/ChildLayoutTextElement"
+        android:text="@string/activity_random_desc" />
+
 </RelativeLayout>

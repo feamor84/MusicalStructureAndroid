@@ -5,8 +5,7 @@
     tools:context="pl.bartekpawlowski.musicalstructure.SettingsActivity">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="AAA" />
+        style="@style/ChildLayoutTextElement"
+        android:text="@string/activity_settings_desc" />
 
 </RelativeLayout>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="pl.bartekpawlowski.musicalstructure.MainActivity"
-    style="@style/MainLayout">
+    style="@style/MainLayout"
+    tools:context="pl.bartekpawlowski.musicalstructure.MainActivity">
 
     <LinearLayout
     style="@style/Row">
@@ -14,12 +14,13 @@
             <ImageView
                 android:id="@+id/play"
                 style="@style/RowElementIcon"
+                android:contentDescription="@string/icon_play"
                 android:src="@drawable/ic_play_arrow_black_48dp" />
 
             <TextView
                 style="@style/RowElementText"
                 android:layout_below="@id/play"
-                android:text="play" />
+                android:text="@string/play" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -29,12 +30,13 @@
             <ImageView
                 android:id="@+id/random"
                 style="@style/RowElementIcon"
+                android:contentDescription="@string/icon_random"
                 android:src="@drawable/ic_shuffle_black_48dp" />
 
             <TextView
                 style="@style/RowElementText"
                 android:layout_below="@id/random"
-                android:text="random" />
+                android:text="@string/random" />
         </RelativeLayout>
 
     </LinearLayout>
@@ -49,12 +51,13 @@
             <ImageView
                 android:id="@+id/playlist"
                 style="@style/RowElementIcon"
+                android:contentDescription="@string/icon_playlist"
                 android:src="@drawable/ic_view_list_black_48dp" />
 
             <TextView
                 style="@style/RowElementText"
                 android:layout_below="@id/playlist"
-                android:text="playlist" />
+                android:text="@string/playlist" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -64,12 +67,13 @@
             <ImageView
                 android:id="@+id/settings"
                 style="@style/RowElementIcon"
+                android:contentDescription="@string/icon_settings"
                 android:src="@drawable/ic_settings_black_48dp" />
 
             <TextView
                 style="@style/RowElementText"
                 android:layout_below="@id/settings"
-                android:text="settings" />
+                android:text="@string/settings" />
         </RelativeLayout>
 
     </LinearLayout>

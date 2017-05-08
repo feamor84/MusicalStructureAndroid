@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Main Activity elements-->
+    <dimen name="split_layout_width">0dp</dimen>
+    <dimen name="row_element_inner_spacing">16dp</dimen>
+    <dimen name="icon_bottom_spacing">8dp</dimen>
+    <!--Child Activities elements-->
+    <dimen name="text_inner_spacing">16dp</dimen>
+    <dimen name="text_size">18sp</dimen>
+</resources>

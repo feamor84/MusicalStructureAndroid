@@ -1,7 +1,22 @@
 <resources>
+    <!--Activities names-->
     <string name="app_name">Musical Structure</string>
     <string name="activity_play">Play</string>
     <string name="activity_random">Random song</string>
     <string name="activity_playlist">Playlist</string>
     <string name="activity_settings">Settings</string>
+    <!--Main Activity elements-->
+    <string name="play">play</string>
+    <string name="random">random</string>
+    <string name="playlist">playlist</string>
+    <string name="settings">settings</string>
+    <string name="icon_play">Icon play</string>
+    <string name="icon_random">Icon random</string>
+    <string name="icon_playlist">Icon playlist</string>
+    <string name="icon_settings">Icon settings</string>
+    <!--Child Activities descriptions-->
+    <string name="activity_play_desc">This activity show current song. User can see title, artist, album and album cover. On the bottom of screen are buttons: backward, stop, pause/play and forward.</string>
+    <string name="activity_playlist_desc">This activity show user playlist. User can add or remove songs, rearrange positions. User can manage playlists: add/remove.</string>
+    <string name="activity_random_desc">When user click on the button, this Activity play random song from songs library. User can see: title, artist, album and album cover. User can click Next button to play next random song.</string>
+    <string name="activity_settings_desc">In this activity user can set library location and cover album server.</string>
 </resources>
