@@ -6,28 +6,28 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class PlaylistActivity extends AppCompatActivity {
+public class PaymentActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_playlist);
+        setContentView(R.layout.activity_payment);
 
         ViewGroup playButton = (ViewGroup) findViewById(R.id.playButton);
         playButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent playIntent = new Intent(PlaylistActivity.this, PlayActivity.class);
+                Intent playIntent = new Intent(PaymentActivity.this, PlayActivity.class);
                 startActivity(playIntent);
             }
         });
 
-        ViewGroup paymentButton = (ViewGroup) findViewById(R.id.paymentButton);
-        paymentButton.setOnClickListener(new View.OnClickListener() {
+        ViewGroup playlistButton = (ViewGroup) findViewById(R.id.playlistButton);
+        playlistButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent paymentIntent = new Intent(PlaylistActivity.this, PaymentActivity.class);
-                startActivity(paymentIntent);
+                Intent playlistIntent = new Intent(PaymentActivity.this, PlaylistActivity.class);
+                startActivity(playlistIntent);
             }
         });
     }

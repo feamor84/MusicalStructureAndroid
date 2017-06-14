@@ -35,16 +35,16 @@ public class MainActivity extends AppCompatActivity {
         playlistButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent playlistIntent = new Intent(MainActivity.this, PlayActivity.class);
+                Intent playlistIntent = new Intent(MainActivity.this, PlaylistActivity.class);
                 startActivity(playlistIntent);
             }
         });
 
-        ViewGroup settingsButton = (ViewGroup) findViewById(R.id.settingsButton);
-        settingsButton.setOnClickListener(new View.OnClickListener() {
+        ViewGroup paymentButton = (ViewGroup) findViewById(R.id.paymentButton);
+        paymentButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent settingsIntent = new Intent(MainActivity.this, SettingsActivity.class);
+                Intent settingsIntent = new Intent(MainActivity.this, PaymentActivity.class);
                 startActivity(settingsIntent);
             }
         });

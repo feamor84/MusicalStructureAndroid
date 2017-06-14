@@ -25,6 +25,10 @@
         <item name="android:orientation">horizontal</item>
     </style>
 
+    <style name="Row.Bottom">
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
     <style name="RowElement">
         <item name="android:layout_width">@dimen/split_layout_width</item>
         <item name="android:layout_height">wrap_content</item>

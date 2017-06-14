@@ -4,8 +4,7 @@
     style="@style/MainLayout"
     tools:context="pl.bartekpawlowski.musicalstructure.MainActivity">
 
-    <LinearLayout
-    style="@style/Row">
+    <LinearLayout style="@style/Row">
 
         <RelativeLayout
             android:id="@+id/playButton"
@@ -41,8 +40,7 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        style="@style/Row">
+    <LinearLayout style="@style/Row">
 
         <RelativeLayout
             android:id="@+id/playlistButton"
@@ -61,19 +59,19 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/settingsButton"
+            android:id="@+id/paymentButton"
             style="@style/RowElement">
 
             <ImageView
-                android:id="@+id/settings"
+                android:id="@+id/payment"
                 style="@style/RowElementIcon"
                 android:contentDescription="@string/icon_settings"
-                android:src="@drawable/ic_settings_black_48dp" />
+                android:src="@drawable/ic_payment_black_48dp" />
 
             <TextView
                 style="@style/RowElementText"
-                android:layout_below="@id/settings"
-                android:text="@string/settings" />
+                android:layout_below="@id/payment"
+                android:text="@string/payment" />
         </RelativeLayout>
 
     </LinearLayout>

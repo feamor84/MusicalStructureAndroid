@@ -8,4 +8,40 @@
         style="@style/ChildLayoutTextElement"
         android:text="@string/activity_random_desc" />
 
+    <LinearLayout style="@style/Row.Bottom">
+
+        <RelativeLayout
+            android:id="@+id/playButton"
+            style="@style/RowElement">
+
+            <ImageView
+                android:id="@+id/play"
+                style="@style/RowElementIcon"
+                android:contentDescription="@string/icon_play"
+                android:src="@drawable/ic_play_arrow_black_48dp" />
+
+            <TextView
+                style="@style/RowElementText"
+                android:layout_below="@id/play"
+                android:text="@string/play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/playlistButton"
+            style="@style/RowElement">
+
+            <ImageView
+                android:id="@+id/playlist"
+                style="@style/RowElementIcon"
+                android:contentDescription="@string/icon_playlist"
+                android:src="@drawable/ic_view_list_black_48dp" />
+
+            <TextView
+                style="@style/RowElementText"
+                android:layout_below="@id/playlist"
+                android:text="@string/playlist" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
 </RelativeLayout>
